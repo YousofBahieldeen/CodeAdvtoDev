@@ -1,0 +1,263 @@
+/* Rest */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* Main Styling */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.container {
+    margin: auto;
+    max-width: 1100px;
+    overflow: auto;
+    padding: 0 20px;
+}
+
+.bg-primary {
+    background: #f7c08a;
+    color: #333;
+}
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+h1, h2, h3 {
+    padding-bottom: 20px;
+}
+p {
+    margin: 10px 0;
+}
+/* Utility Classes */
+.BTN {
+    display: inline-block;
+    font-size: 18px;
+    color: #fff;
+    background: rgb(169, 125, 20);
+    padding: 13px 20px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+}
+.BTN:hover {
+    background: #5082c8;
+    color: #333;
+    
+}
+
+.py-3 {padding: 30px 0;}
+
+.BTN-light {
+    background: #d4d277;
+    color: #333;
+}
+
+.bg-dark {
+    background: #333;
+    color: #fff;
+}
+
+.bg-light {
+    background: #f4f4f4;
+    color: #333;
+}
+
+button {
+    background-color: rosybrown;
+    width: 50px;
+    border: #ccc 2px solid;
+    cursor: pointer;
+    height: 36px;
+    font-size: 14px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: -5.3rem;
+    line-height: 0%;
+    
+}
+.Home {
+    font-size: 13px;
+}
+button:hover {
+    background-color: rgb(198, 159, 159);
+}
+.headsce {  
+    background-color: #333;
+    height: 3.4rem;
+}
+
+.Nav-b {
+    margin-left: 67.6rem;
+}
+.scetion-1 {
+    background: url(./jess-bailey-l3N9Q27zULw-unsplash.jpg) center/cover fixed no-repeat ;
+    height: 42rem;
+}
+.scetion-1 h1 {
+    font-size: 40px;
+    text-align: center;
+    padding-top: 210px;
+ 
+}
+
+.sec-span-1 {
+    line-height: 1.2em;
+    color: #c2e06a;
+}
+
+.scetion-1 a {
+    text-decoration: none;
+    color: #000;
+}
+
+/* Home Info */
+
+#home-info {
+    height: 400px;
+        line-height: 1.7rem;
+}
+
+#home-info #info-img {
+    float: left;
+    width: 50%;
+    background: url(./branko-stancevic-GI1hwOGqGtE-unsplash.jpg) no-repeat;
+    min-height: 100%;
+}
+
+#home-info #info-contect {
+    float: right;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    padding: 50px 30px;
+    overflow: hidden;
+}
+
+#home-info #info-contect p {
+    padding-bottom: 0px;
+}
+
+#home-info #info-right {
+    float: right;
+    width: 50%;
+    min-height: 100%;
+}
+
+/* Main Footer */
+#main-footer {
+    text-align: center;
+    background: #444;
+    color: #fff;
+    padding: 20px;
+}
+/* Links */
+.box {
+    float: left;
+    width: 33.3%;
+    padding: 50px;
+    text-align: center;
+}
+
+.box i {
+    margin-bottom: 10px;
+}
+
+.Links {
+    color: #000;
+}
+                                                                      ABOUT PAG                                                                            */ */
+.Rates {
+    text-align: center;
+    float: left;
+    border: #fff 2px solid;
+    padding: 12px 15px;
+}
+
+#Samie {
+    text-align: center;
+    clear: both;
+}
+#Samie .Samie-pic {
+    background: url(./person-1.jpg);
+}
+.clr {
+    clear: both;
+}
+.l-heading {
+    font-size: 40px;
+}
+
+/* bout Info */
+#about-info .info-right {
+    float: right;
+    width: 50%;
+    min-height: 100%;
+}
+
+#about-info .info-right img {
+    display: block;
+    margin: auto;
+    width: 70%;
+    border-radius: 50%;
+}
+#about-info .info-left {
+    float: left;
+    width: 50%;
+    min-height: 100%;
+}
+
+/* Testimonials */
+#testimonials {
+    height: 600px;
+    background: url('./Code1.jpg') no-repeat center center/cover;
+    padding-top: 100px;
+}
+
+#testimonials h2 {
+    color: #fff;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+#testimonials .testimonial {
+    padding: 20px;
+    margin-bottom: 40px;
+    border-radius: 5px;
+    opacity: 0.9;
+}
+
+#testimonials .testimonial img {
+    width: 100px;
+    float: left;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+/* Join Form */
+#contact-form  .form-group {
+    margin-bottom: 20px;
+}
+#contact-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+#contact-form input,
+#contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px #ddd solid;
+}
+#contact-form textarea {
+    height: 200px;
+}
+#contact-form input:focus, 
+#contact-form textarea:focus {
+    outline: none;
+    border-color: #f7c08a;
+}
+.Submite {
+    width: 60px;
+}
